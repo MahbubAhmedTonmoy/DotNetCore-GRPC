@@ -257,17 +257,17 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "gRPC server/1.0.0": {
+      "gRPCserver/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Grpc.AspNetCore": "2.27.0"
         },
         "compile": {
-          "bin/placeholder/gRPC server.dll": {}
+          "bin/placeholder/gRPCserver.dll": {}
         },
         "runtime": {
-          "bin/placeholder/gRPC server.dll": {}
+          "bin/placeholder/gRPCserver.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -647,10 +647,10 @@
         "version.txt"
       ]
     },
-    "gRPC server/1.0.0": {
+    "gRPCserver/1.0.0": {
       "type": "project",
-      "path": "../gRPC server/gRPC server.csproj",
-      "msbuildProject": "../gRPC server/gRPC server.csproj"
+      "path": "../gRPC server/gRPCserver.csproj",
+      "msbuildProject": "../gRPC server/gRPCserver.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -658,7 +658,7 @@
       "Google.Protobuf >= 3.14.0",
       "Grpc.Net.Client >= 2.33.1",
       "Grpc.Tools >= 2.33.1",
-      "gRPC server >= 1.0.0"
+      "gRPCserver >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -667,9 +667,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj",
-      "projectName": "gRPC Client",
-      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj",
+      "projectName": "gRPCclient",
+      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj",
       "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\obj\\",
       "projectStyle": "PackageReference",
@@ -689,8 +689,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPC server.csproj": {
-              "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPC server.csproj"
+            "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPCserver.csproj": {
+              "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPCserver.csproj"
             }
           }
         }

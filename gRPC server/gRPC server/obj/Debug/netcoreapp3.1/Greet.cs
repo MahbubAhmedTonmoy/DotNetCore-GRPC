@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace gRPC_server {
+namespace gRPCserver {
 
   /// <summary>Holder for reflection information generated from Protos/greet.proto</summary>
   public static partial class GreetReflection {
@@ -27,12 +27,12 @@ namespace gRPC_server {
             "ChJQcm90b3MvZ3JlZXQucHJvdG8SBWdyZWV0IhwKDEhlbGxvUmVxdWVzdBIM",
             "CgRuYW1lGAEgASgJIh0KCkhlbGxvUmVwbHkSDwoHbWVzc2FnZRgBIAEoCTI9",
             "CgdHcmVldGVyEjIKCFNheUhlbGxvEhMuZ3JlZXQuSGVsbG9SZXF1ZXN0GhEu",
-            "Z3JlZXQuSGVsbG9SZXBseUIOqgILZ1JQQ19zZXJ2ZXJiBnByb3RvMw=="));
+            "Z3JlZXQuSGVsbG9SZXBseUINqgIKZ1JQQ3NlcnZlcmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_server.HelloRequest), global::gRPC_server.HelloRequest.Parser, new[]{ "Name" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPC_server.HelloReply), global::gRPC_server.HelloReply.Parser, new[]{ "Message" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCserver.HelloRequest), global::gRPCserver.HelloRequest.Parser, new[]{ "Name" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCserver.HelloReply), global::gRPCserver.HelloReply.Parser, new[]{ "Message" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace gRPC_server {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::gRPC_server.GreetReflection.Descriptor.MessageTypes[0]; }
+      get { return global::gRPCserver.GreetReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -182,7 +182,7 @@ namespace gRPC_server {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::gRPC_server.GreetReflection.Descriptor.MessageTypes[1]; }
+      get { return global::gRPCserver.GreetReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

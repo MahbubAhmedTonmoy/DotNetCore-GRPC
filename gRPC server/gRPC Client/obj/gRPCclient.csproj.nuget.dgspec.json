@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj": {}
+    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj": {
+    "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj",
-        "projectName": "gRPC Client",
-        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPC Client.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj",
+        "projectName": "gRPCclient",
+        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\gRPCclient.csproj",
         "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC Client\\obj\\",
         "projectStyle": "PackageReference",

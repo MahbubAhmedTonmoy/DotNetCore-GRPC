@@ -634,9 +634,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPC server.csproj",
-      "projectName": "gRPC server",
-      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPC server.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPCserver.csproj",
+      "projectName": "gRPCserver",
+      "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\gRPCserver.csproj",
       "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\gRPC server\\obj\\",
       "projectStyle": "PackageReference",
