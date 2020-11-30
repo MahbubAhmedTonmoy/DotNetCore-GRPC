@@ -260,13 +260,30 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Grpc.AspNetCore": "2.27.0"
+          "Grpc.AspNetCore": "2.27.0",
+          "ShippingService": "1.0.0"
         },
         "compile": {
           "bin/placeholder/gRPCServer.dll": {}
         },
         "runtime": {
           "bin/placeholder/gRPCServer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "ShippingService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Grpc.AspNetCore": "2.27.0"
+        },
+        "compile": {
+          "bin/placeholder/ShippingService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShippingService.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -641,6 +658,11 @@
       "type": "project",
       "path": "../gRPCServer/gRPCServer.csproj",
       "msbuildProject": "../gRPCServer/gRPCServer.csproj"
+    },
+    "ShippingService/1.0.0": {
+      "type": "project",
+      "path": "../ShippingService/ShippingService.csproj",
+      "msbuildProject": "../ShippingService/ShippingService.csproj"
     }
   },
   "projectFileDependencyGroups": {

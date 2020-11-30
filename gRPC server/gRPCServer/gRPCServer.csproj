@@ -14,4 +14,8 @@
     <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShippingService\ShippingService.csproj" />
+  </ItemGroup>
+
 </Project>

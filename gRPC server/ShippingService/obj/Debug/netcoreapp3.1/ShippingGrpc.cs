@@ -39,6 +39,52 @@ namespace ShippingService {
 
     }
 
+    /// <summary>Client for ProductShipment</summary>
+    public partial class ProductShipmentClient : grpc::ClientBase<ProductShipmentClient>
+    {
+      /// <summary>Creates a new client for ProductShipment</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      public ProductShipmentClient(grpc::ChannelBase channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for ProductShipment that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      public ProductShipmentClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      protected ProductShipmentClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      protected ProductShipmentClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      public virtual global::ShippingService.SendOrderReply SendOrder(global::ShippingService.SendOrderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SendOrder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::ShippingService.SendOrderReply SendOrder(global::ShippingService.SendOrderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SendOrder, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::ShippingService.SendOrderReply> SendOrderAsync(global::ShippingService.SendOrderRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SendOrderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::ShippingService.SendOrderReply> SendOrderAsync(global::ShippingService.SendOrderRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SendOrder, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      protected override ProductShipmentClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new ProductShipmentClient(configuration);
+      }
+    }
+
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static grpc::ServerServiceDefinition BindService(ProductShipmentBase serviceImpl)

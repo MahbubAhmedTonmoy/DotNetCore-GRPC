@@ -156,10 +156,19 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "gRPCServer/1.0.0": {
         "dependencies": {
-          "Grpc.AspNetCore": "2.27.0"
+          "Grpc.AspNetCore": "2.27.0",
+          "ShippingService": "1.0.0"
         },
         "runtime": {
           "gRPCServer.dll": {}
+        }
+      },
+      "ShippingService/1.0.0": {
+        "dependencies": {
+          "Grpc.AspNetCore": "2.27.0"
+        },
+        "runtime": {
+          "ShippingService.dll": {}
         }
       }
     }
@@ -318,6 +327,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
     },
     "gRPCServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShippingService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 	<ItemGroup>
-		<Protobuf Include="Protos\shipping.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\shipping.proto" GrpcServices="Both" />
 	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />

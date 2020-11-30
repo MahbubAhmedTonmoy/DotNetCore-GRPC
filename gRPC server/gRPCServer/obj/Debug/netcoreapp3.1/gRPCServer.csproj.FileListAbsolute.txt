@@ -26,3 +26,6 @@ C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\obj\Debug\n
 C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\obj\Debug\netcoreapp3.1\gRPCServer.dll
 C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\obj\Debug\netcoreapp3.1\gRPCServer.pdb
 C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\obj\Debug\netcoreapp3.1\gRPCServer.genruntimeconfig.cache
+C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\bin\Debug\netcoreapp3.1\ShippingService.exe
+C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\bin\Debug\netcoreapp3.1\ShippingService.dll
+C:\Users\ahmed.mahbub\Desktop\DotNetCore-GRPC\gRPC server\gRPCServer\bin\Debug\netcoreapp3.1\ShippingService.pdb

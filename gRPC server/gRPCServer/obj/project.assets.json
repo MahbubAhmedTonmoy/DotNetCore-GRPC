@@ -256,6 +256,22 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "ShippingService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Grpc.AspNetCore": "2.27.0"
+        },
+        "compile": {
+          "bin/placeholder/ShippingService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShippingService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -621,11 +637,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ShippingService/1.0.0": {
+      "type": "project",
+      "path": "../ShippingService/ShippingService.csproj",
+      "msbuildProject": "../ShippingService/ShippingService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Grpc.AspNetCore >= 2.27.0"
+      "Grpc.AspNetCore >= 2.27.0",
+      "ShippingService >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -655,7 +677,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\ShippingService\\ShippingService.csproj": {
+              "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\DotNetCore-GRPC\\gRPC server\\ShippingService\\ShippingService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

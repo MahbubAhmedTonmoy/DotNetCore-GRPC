@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShippingService;
 
 namespace gRPCServer
 {
@@ -18,6 +19,11 @@ namespace gRPCServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddGrpc();
+            services
+             .AddGrpcClient<ProductShipment.ProductShipmentClient>(opts =>
+             {
+                 opts.Address = new Uri("https://localhost:5003");
+             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
